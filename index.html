@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Portafolio - Guillermo Garcia</title>
+		<meta charset="utf-8">
+		<script src="https://kit.fontawesome.com/f3c558f4ce.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="contenedor">
+			<header>
+				<div class="logo">
+					<h1>Guillermo Garcia</h1>
+					<p>Web Developer</p>
+				</div>
+				<form>
+					<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+				</form>
+				<div class="categorias" id="categorias">
+					<a href="#" class="activo">Todos</a>
+					<a href="#">Naturaleza</a>
+					<a href="#">Ciudades</a>
+					<a href="#">Personas</a>
+					<a href="#">Animales</a>
+				</div>
+			</header>
+
+			<section class="grid" id="grid">
+				<div class="item"
+				 data-categoria="ciudades"
+				 data-etiquetas="ciudades autos carros calles"
+				 data-descripcion="1.- New York"
+				>
+					<div class="item-contenido">
+						<img src="img/ciudad1.png" alt="">
+					</div>
+				</div>
+				<div class="item"
+				 data-categoria="personas"
+				 data-etiquetas="perosnas mujeres"
+				 data-descripcion="2.- Una joven"
+				>
+					<div class="item-contenido">
+						<img src="img/persona1.png" alt="">
+					</div>
+				</div>
+				<div class="item"
+				 data-categoria="paisajes"
+				 data-etiquetas="paisajes montañas mar playas"
+				 data-descripcion="3.- Un atardecer"
+				>
+					<div class="item-contenido">
+						<img src="img/paisaje1.png" alt="">
+					</div>
+				</div>
+				<div class="item"
+				 data-categoria="animales"
+				 data-etiquetas="animales leon"
+				 data-descripcion="4.- Una leon"
+				>
+					<div class="item-contenido">
+						<img src="img/animal1.png" alt="">
+					</div>
+				</div>
+				<div class="item"
+				 data-categoria="ciudades"
+				 data-etiquetas="edificios, ciudades, paisajes, carros"
+				 data-descripcion="5.- Una ciudad"
+				>
+					<div class="item-contenido">
+						<img src="img/ciudad2.png" alt="">
+					</div>
+				</div>
+				<div class="item"
+				 data-categoria="personas"
+				 data-etiquetas="perosnas mujeres"
+				 data-descripcion="6.- Una joven"
+				>
+					<div class="item-contenido">
+						<img src="img/persona2.png" alt="">
+					</div>
+				</div>
+				<div class="item"
+				 data-categoria="paisajes"
+				 data-etiquetas="paisajes montañas mar"
+				 data-descripcion="7.- Un atardecer"
+				>
+					<div class="item-contenido">
+						<img src="img/paisaje2.png" alt="">
+					</div>
+				</div>
+				<div class="item"
+				 data-categoria="animales"
+				 data-etiquetas="animales animal panda"
+				 data-descripcion="8.- Un panda"
+				>
+					<div class="item-contenido">
+						<img src="img/animal2.png" alt="">
+					</div>
+				</div>
+				<div class="item"
+				 data-categoria="naturaleza"
+				 data-etiquetas="naturaleza hojas"
+				 data-descripcion="9.- Unas hojas"
+				>
+					<div class="item-contenido">
+						<img src="img/naturaleza1.png" alt="">
+					</div>
+				</div>
+			</section>
+
+			<section class="overlay" id="overlay">
+				<div class="contenedor-img">
+					<button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+					<img src="" alt="">
+				</div>
+				<p class="descripcion"></p>
+			</section>
+
+			<footer class="contenedor">
+				<div class="redes-sociales">
+					<div class="contenedor-icono">
+						<a href="https://twitter.com/Guillote998" target="_blank" class="twitter">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</div>
+					<div class="contenedor-icono">
+						<a href="https://www.facebook.com/GuillermoGarciaUwU" target="_blank" class="facebook">
+							<i class="fab fa-facebook"></i>
+						</a>
+					</div>
+					<div class="contenedor-icono">
+						<a href="https://instagram.com/gatogemo_999_" target="_blank" class="instagram">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</div>
+				</div>
+				<div class="creado-por">
+					<p>Sitio diseñado por <a href="#">Guillermo Garcia</a> - <a href="https://github.com/gatogemo999">Github</a></p>
+				</div>
+			</footer>
+		</div>
+		<script  src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js "> </script>
+		<script  src ="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js "> </script>
+		<script src="codigo.js"></script>
+	</body>
+</html>
